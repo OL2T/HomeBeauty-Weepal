@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+  <script src="https://kit.fontawesome.com/07f9820157.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="./assets/sass/reset.css"> -->
+  <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+  <link rel="stylesheet" href="./assets/sass/checkout.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  <title>CHECK OUT</title>
+</head>
+<body>
+  <header>
+    <section class="top-bar">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <label for="top-bar__mobile" class="top-bar__menu">
+              <i class="fas fa-bars"></i>
+            </label>
+            <input type="checkbox" class="top-bar__input" id="top-bar__mobile">
+              <label for="top-bar__mobile" class="top-bar__overlay"></label>
+              <div class="top-bar__mobile">
+                <div class="top-bar__mobile__top">
+                    <div class="top-bar__mobile__top__logo">
+                      <h5>
+                        MENU NAVIGATION
+                      </h5>
+                    </div>
+                    <label for="top-bar__mobile" class="top-bar__mobile__top-close">
+                      <img src="./assets/img/assets_Main-menu/close.png" alt="close">
+                    </label>
+                </div>
+                <ul class="top-bar__mobile__menu-item">
+                  <li class="top-bar__mobile__menu-item-list"><a href="index.html">HOME</a>
+                    <span>
+                      <img src="./assets/img/assets_Main-menu/fa-angle-right.png" alt="angle right">
+                    </span>
+                  </li>
+                  <li class="top-bar__mobile__menu-item-list"><a href="shop-kid.html">SHOP</a> <span>
+                    <img src="./assets/img/assets_Main-menu/fa-angle-right.png" alt="angle right">
+                  </span>
+                  </li>
+                  <li class="top-bar__mobile__menu-item-list"><a href="product-style.html">PRODUCTS</a> <span>
+                    <img src="./assets/img/assets_Main-menu/fa-angle-right.png" alt="angle right">
+                  </span>
+                  </li>
+                  <li class="top-bar__mobile__menu-item-list"><a href="blog.html">BLOG</a> <span>
+                    <img src="./assets/img/assets_Main-menu/fa-angle-right.png" alt="angle right">
+                  </span>
+                </li>
+                  <li class="top-bar__mobile__menu-item-list"><a href="#">PAGES</a> <span>
+                    <img src="./assets/img/assets_Main-menu/fa-angle-right.png" alt="angle right">
+                  </span>
+                </li>
+                  <li class="top-bar__mobile__menu-item-list"><a href="contact.html">CONTACT</a> <span>
+                    <img src="./assets/img/assets_Main-menu/fa-angle-right.png" alt="angle right">
+                  </span>
+                </li>
+                </ul>
+                <div class="top-bar__mobile__footer">
+                  <div class="top-bar__mobile__footer-phone">
+                    <span>
+                      <img src="./assets/img/assets_Main-menu/icon-address-copy-2.png" alt="phone">
+                    </span>
+                    <p>877-834-1434</p>
+                  </div>
+                  <div class="top-bar__mobile__footer-mail">
+                    <span>
+                      <img src="./assets/img/assets_Main-menu/icon-address-copy.png" alt="phone">
+                    </span>
+                    <p>pixelgeeklab@gmail.com</p>
+                  </div>
+                  <ul class="top-bar__mobile__footer__menu-social">
+                    <li><img src="./assets/img/assets_Home-Fashion2/facebook-copy.png" alt="facebook"></li>
+                    <li><img src="./assets/img/assets_Home-Fashion2/twitter.png" alt="twitter"></li>
+                    <li><img src="./assets/img/assets_Home-Fashion2/instagram.png" alt="instagram"></li>
+                    <li><img src="./assets/img/assets_Home-Fashion2/pinterest.png" alt="pinterest"></li>
+                    <li><img src="./assets/img/assets_Home-Fashion2/g.png" alt="google"></li>
+                    <li><img src="./assets/img/assets_Home-Fashion2/youtube.png" alt="youtube"></li>
+                  </ul>
+                  <div class="top-bar__mobile__footer-icon">
+                    <div class="top-bar__mobile__footer-icon__wishlist">
+                      <a href="wishlist.html"><i class="far fa-heart"></i><span>3</span></a>
+                    </div>
+                    <div class="top-bar__mobile__footer-icon__account">
+                      <a href="#"><img src="./assets/img/assets_Main-menu/my-account.png" alt="account"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="top-bar__logo">
+              <a href="index.html">RABI</a>
+            </div>
+          </div>
+          <div class="col">
+            <ul class="top-bar__menu-item">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="#">SHOP</a></li>
+              <li><a href="product-style.html">PRODUCT</a></li>
+              <li><a href="blog.html">BLOG</a></li>
+              <li><a href="#">PAGES</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="top-bar__logo-mid">
+              <a href="index.html">RABI</a>
+            </div>
+          </div>
+          <div class="col">
+            <ul class="top-bar__menu-icon">
+              <li><img src="./assets/img/icon-search/search.png" alt="alt"></li>
+              <li><a href="wishlist.html">
+                <img src="./assets/img/icon-wishlist/icon-wishlist.png" alt="alt">
+              </a>
+              </li>
+              <li><img src="./assets/img/my-account/my-account.png" alt="alt"></li>
+              <li><a href="shopping-cart.html">
+                <img src="./assets/img/icon-cart/icon-cart.png" alt="alt">
+                <div class="top-bar__menu-icon__ellipse">9</div>
+              </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="checkout">
+      <div class="container">
+        <div class="checkout__content">
+          <h1>Checkout</h1>
+          <span>Returning Customer?</span> <span><a href="#">Click here to login</a></span>
+          <p>If you have shopped with us before, please enter your
+            details in the boxes below. 
+          <br>If you are a new customer please proceed to the Billing &   Shipping section.</p>
+            <div class="checkout__content-input">
+              <div class="checkout__content-input__email">
+                <h5>Username or Email *</h5>
+                <input type="text" placeholder="Enter your username or email here">
+              </div>
+              <div class="checkout__content-input__pass">
+                <h5>Password *</h5>
+                <input type="text" placeholder="Enter your password">
+              </div>
+            </div>
+            <div class="checkout__content-item">
+              <div class="checkout__content-item__remember">
+                <div class="checkout__content-item__remember-border">
+                  <input type="checkbox" name="remember" id="remember">
+                </div>
+                <label for="remember">Remember me</label>
+              </div>
+              <a href="#">Lost your password?</a>
+            </div>
+            <button>LOGIN</button>
+            <div class="checkout__content-coupon">
+              <span>Have a coupon?</span> <span><a href="#">Click here to enter your code</a></span>
+            </div>
+            <input type="text" class="checkout__content-coupon-input" placeholder="Coupon code">
+        </div>
+      </div>
+    </section>
+    <section class="billing">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="billing__form">
+              <h3>Billing Address</h3>
+              <div class="billing__form-country">
+                <h5>Country *</h5>
+                <input type="text" placeholder="United Kingdom (UK)">
+              </div>
+              <div class="billing__form-name">
+                <div class="billing__form-name__first">
+                  <h5>First name *</h5>
+                  <input type="text" placeholder="Enter here">
+                </div>
+                <div class="billing__form-name__last">
+                  <h5>Last name *</h5>
+                  <input type="text" placeholder="Enter here">
+                </div>
+              </div>
+              <div class="billing__form-company">
+                <h5>Company name</h5>
+                <input type="text" placeholder="Enter here">
+              </div>
+              <div class="billing__form-address">
+                <h5>Address *</h5>
+                <input type="text" placeholder="Street address">
+                <input type="text" placeholder="Apartment, suite, unit etc. (optional)">
+              </div>
+              <div class="billing__form-town">
+                <h5>Town / City *</h5>
+                <input type="text" placeholder="Town / City">
+              </div>
+              <div class="billing__form-coutry">
+                <div class="billing__form-coutry__coutry">
+                  <h5>Coutry</h5>
+                  <input type="text" placeholder="Enter here">
+                </div>
+                <div class="billing__form-coutry__post-code">
+                  <h5>Post code *</h5>
+                  <input type="text" placeholder="Enter here">
+                </div>
+              </div>
+              <div class="billing__form-contact">
+                <div class="billing__form-contact__email">
+                  <h5>Email Address *</h5>
+                  <input type="text" placeholder="Enter here">
+                </div>
+                <div class="billing__form-contact__phone">
+                  <h5>Phone *</h5>
+                  <input type="text" placeholder="Enter here">
+                </div>
+              </div>
+              <p>Create an account by entering the information below. If you are a returning csttomer please login at the top of 
+                the page.</p>
+                <div class="billing__form-account">
+                  <h5>Account Passwords *</h5>
+                  <input type="text" placeholder="Enter here">
+                </div>
+            </div>
+            <div class="billing__shipping">
+              <h3>Shipping Address</h3>
+              <div class="billing__shipping__input">
+                <div class="billing__shipping__input-border">
+                  <input type="checkbox" name="ship" id="shipping">
+                </div>
+                <label for="shipping" class="billing__shipping-text">Shipping to a different address?</label>
+              </div>
+              <p>Order Notes</p>
+              <textarea name="note" placeholder="Note about your order, e.g. special notes for delivery."></textarea>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+            <div class="billing__order">
+              <h4>Your order</h4>
+              <div class="billing__order-product">
+                <img src="./assets/img/assets_Shop-Kids-List/layer-10.png" alt="alt">
+                <div class="billing__order-product-title">
+                  <h5>Skate t-shirt Keep it Simply</h5>
+                  <p>Qty: 1</p>
+                </div>
+                <span>$29.50</span>
+              </div>
+              <div class="billing__order-product2">
+                <img src="./assets/img/assets_Shop-Kids-List/layer-11.png" alt="alt">
+                <div class="billing__order-product2-title">
+                  <h5>Quilted vest with hood</h5>
+                  <p>Qty: 1</p>
+                </div>
+                <span>$32.00</span>
+              </div>
+              <div class="billing__order-subtotal">
+                <p>Subtotal</p>
+                <span>$61.50</span>
+              </div>
+              <div class="billing__order-estimate">
+                <h5>ESTIMATE SHIPPING</h5>
+                <div class="billing__order-estimate__ship">
+                  <label for="ship__free" class="billing__order-estimate__ship__free-label">
+                    <input class="billing__order-estimate__ship__free-radio" type="radio" name="free shipping" id="ship__free">
+                    <span class="billing__order-estimate__ship__free-radio-border">
+                    </span>
+                    <span>Free Shipping</span>
+                  </label>
+                  <br>
+                  <label for="ship__local" class="billing__order-estimate__ship__local-label">
+                    <input class="billing__order-estimate__ship__local-radio" type="radio" name="free shipping" id="ship__local">
+                    <span class="billing__order-estimate__ship__local-radio-border"></span>
+                    <span>Local Pickup</span><span> (Free)</span> 
+                  </label>
+                  <br>
+                  <label for="ship__flat" class="billing__order-estimate__ship__flat-label">
+                    <input class="billing__order-estimate__ship__flat-radio" type="radio" name="free shipping" id="ship__flat">
+                    <span class="billing__order-estimate__ship__flat-radio-border"></span>
+                    <span>Flat Rate: </span><span>$10.00</span> 
+                  </label>
+                  <br>
+                  <label for="ship__inter" class="billing__order-estimate__ship__inter-label">
+                    <input class="billing__order-estimate__ship__inter-radio" type="radio" name="free shipping" id="ship__inter">
+                    <span class="billing__order-estimate__ship__inter-radio-border"></span>
+                    <span>International: </span><span>$30.00</span>
+                  </label>
+                </div>
+              </div>
+              <div class="billing__order-cardtotal">
+                <p>Cart totals</p>
+                <span>$61.50</span>
+              </div>
+              <div class="billing__order-payment">
+                <div class="billing__order-payment__direct">
+                  <label for="direct" class="billing__order-payment__direct-label">
+                    <input class="billing__order-payment__direct-radio" type="radio" name="direct" id="direct">
+                    <span class="billing__order-payment__direct-radio-border"></span>
+                    <span>Direct bank transfer</span>
+                  </label>
+                    <p>Make your payment directly into our bank 
+                      account. Please use your Order ID as the 
+                      payment reference. Your order won’t be 
+                      shipped until the funds have cleared in our 
+                      account.</p>
+                </div>
+                <div class="billing__order-payment__cheque">
+                  <label for="cheque" class="billing__order-payment__cheque-label">
+                    <input class="billing__order-payment__cheque-radio" type="radio" name="direct" id="cheque">
+                    <span class="billing__order-payment__cheque-radio-border"></span>
+                    <span>Cheque payment</span>
+                  </label>
+                </div>
+                <div class="billing__order-payment__paypal">
+                  <label for="paypal" class="billing__order-payment__paypal-label">
+                    <input class="billing__order-payment__paypal-radio" type="radio" name="direct" id="paypal">
+                    <span class="billing__order-payment__paypal-radio-border"></span>
+                    <span>Paypal</span>
+                  </label>
+                </div>
+              </div>
+              <div class="billing__order-terms">
+                <div class="billing__order-terms__border">
+                  <input type="checkbox" name="terms" id="terms">
+                </div>
+                <label for="terms">I have read and accept the 
+                  <a href="#">Terms & Conditions</a>
+                </label>
+              </div>
+              <div class="billing__order-button">
+                <button>PLACE ORDER</button>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+    </section>
+  </main>
+  <footer>
+    <section class="contact">
+      <div class="container">
+        <div class="contact-bg">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+              <div class="contact__shipping">
+                <img src="./assets/img/gift/gift.png" alt="alt">
+                <h5>STANDARD FREE SHIPPING FROM $75</h5> 
+              </div>
+            </div>
+            <div class=" col-12 col-sm-6 col-md-6 col-lg-3">
+              <div class="contact__phone">
+                <img src="./assets/img/phone-wave/phone-wave.png" alt="alt">
+                <h5>CUSTOMER SERVICE +123 456 789 99</h5> 
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+              <div class="contact__return">
+                <img src="./assets/img/return/return.png" alt="alt">
+                <h5>RETURN OR EXCHANGE WITHIN 15 DAYS</h5>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+              <div class="contact__payment">
+                <img src="./assets/img/lock/lock.png" alt="alt">
+                <h5>PAYMENT SECURED</h5>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ********** -->
+    <section class="about-us">
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 ">
+              <ul class="about-us__contact-us">
+                  <li><h6>CONTACT US</h6></li>
+                  <li>
+                    <div class="about-us__contact-line"></div>
+                  </li>
+                  <li><img class="img-1" src="./assets/img/icon-address/icon-address.png" alt="alt"><a href="">5th Avenue at St.Marks Place, Cathedral District Brooklyn</a></li>
+                  <li><img class="img-2" src="./assets/img/icon-address-phone/icon-address-copy-2.png" alt="alt"><a href="">877-834-1434</a></li>
+                  <li><img class="img-3" src="./assets/img/icon-address-mail/icon-address-copy.png" alt="alt"><a href="">pixelgeeklab@gmail.com</a></li>
+              </ul>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-2 ">
+              <ul class="about-us__company-info">
+                  <li><h6>COMPANY INFO</h6></li>
+                  <li>
+                    <div class="about-us__company-line"></div>
+                  </li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Press</a></li>
+                  <li><a href="#">Affiliates</a></li>
+                  <li><a href="#">Corporate Information</a></li>
+                  <li><a href="#">Sustainability</a></li>
+              </ul>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-2  ">
+              <ul class="about-us__support">
+                  <li><h6>SUPPORT</h6></li>
+                  <li>
+                    <div class="about-us__support-line"></div>
+                  </li>
+                  <li><a href="#">Customer Service</a></li>
+                  <li><a href="#">Shipping</a></li>
+                  <li><a href="#">Returns & Exchanges</a></li>
+                  <li><a href="#">Gift Cards</a></li>
+                  <li><a href="#">Store Finder</a></li>
+                  <li><a href="#">Site map</a></li>
+              </ul>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 ">
+              <ul class="about-us__our-newsletter">
+                  <li><h6>OUR NEWSLETTER</h6></li>
+                  <li>
+                    <div class="about-us__newsletter-line"></div>
+                  </li>
+                  <li>To stay-up to-date on our promotions, discounts, sales, special offers and more</li>
+                  <li>
+                    <input type="text" name="txtEmail" class="about-us__our-newsletter-input" placeholder="Your Email Address">
+                  </li>
+                  <li>
+                    <button class="btn btn-outline-light">SUBSCRIBE</button>
+                  </li>
+              </ul>
+          </div>
+          </div>
+          <div class="about-us__bottom-line"></div>
+          <div class="about-us__row">
+              <!-- <div class="col-12 col-sm-6"> -->
+                <div class="about-us__bottom-footer">
+                  <h2 class="about-us__bottom-logo"><a href="index.html">RABI</a></h2>
+                  <span class="typeface">©</span><span>PixelGeekLab</span>
+                </div>
+              <!-- </div> -->
+              <!-- <div class="col-12 col-sm-6 "> -->
+                  <div class="about-us__bottom-payment">
+                    <img src="./assets/img/payment/payment.png" alt="alt">
+                  </div>
+              <!-- </div> -->
+          </div>
+      </div>
+  </section>
+  </footer>
+  <script src="bootstrap/js/bootstrap.js" ></script>
+</body>
+</html>

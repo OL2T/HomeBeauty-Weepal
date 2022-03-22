@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+  <script src="https://kit.fontawesome.com/07f9820157.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="./assets/sass/reset.css"> -->
+  <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+  <link rel="stylesheet" href="./assets/sass/shopping-cart.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  <title>SHOPPING CART</title>
+</head>
+<body>
+  <header>
+    <section class="top-bar">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <label for="top-bar__mobile" class="top-bar__menu">
+              <i class="fas fa-bars"></i>
+            </label>
+            <input type="checkbox" class="top-bar__input" id="top-bar__mobile">
+              <label for="top-bar__mobile" class="top-bar__overlay"></label>
+              <div class="top-bar__mobile">
+                <div class="top-bar__mobile__top">
+                    <div class="top-bar__mobile__top__logo">
+                      <h5>
+                        MENU NAVIGATION
+                      </h5>
+                    </div>
+                    <label for="top-bar__mobile" class="top-bar__mobile__top-close">
+                      <img src="./assets/img/assets_Main-menu/close.png" alt="close">
+                    </label>
+                </div>
+                  <ul class="top-bar__mobile__menu-item">
+                    <li class="top-bar__mobile__menu-item-list"><a href="index.html">HOME</a>
+                      <span>
+                        <img src="./assets/img/assets_Main-menu/fa-angle-right.png" alt="angle right">
+                      </span>
+                    </li>
+                    <li class="top-bar__mobile__menu-item-list"><a href="shop-men.html">MEN</a> 
+                      <span>
+                      <img src="./assets/img/assets_Main-menu/fa-angle-right.png" alt="angle right">
+                    </span>
+                  </li>
+                    <li class="top-bar__mobile__menu-item-list"><a href="#">WOMEN</a> <span>
+                      <img src="./assets/img/assets_Main-menu/fa-angle-right.png" alt="angle right">
+                    </span>
+                  </li>
+                    <li class="top-bar__mobile__menu-item-list"><a href="shop-kid.html">SHOP</a> <span>
+                      <img src="./assets/img/assets_Main-menu/fa-angle-right.png" alt="angle right">
+                    </span>
+                  </li>
+                    <li class="top-bar__mobile__menu-item-list"><a href="#">PAGES</a> <span>
+                      <img src="./assets/img/assets_Main-menu/fa-angle-right.png" alt="angle right">
+                    </span>
+                  </li>
+                    <li class="top-bar__mobile__menu-item-list"><a href="blog.html">BLOG</a> <span>
+                      <img src="./assets/img/assets_Main-menu/fa-angle-right.png" alt="angle right">
+                    </span>
+                  </li>
+                    <li class="top-bar__mobile__menu-item-list"><a href="contact.html">CONTACT</a> <span>
+                      <img src="./assets/img/assets_Main-menu/fa-angle-right.png" alt="angle right">
+                    </span>
+                  </li>
+                  </ul>
+                <div class="top-bar__mobile__footer">
+                  <div class="top-bar__mobile__footer-phone">
+                    <span>
+                      <img src="./assets/img/assets_Main-menu/icon-address-copy-2.png" alt="phone">
+                    </span>
+                    <p>877-834-1434</p>
+                  </div>
+                  <div class="top-bar__mobile__footer-mail">
+                    <span>
+                      <img src="./assets/img/assets_Main-menu/icon-address-copy.png" alt="phone">
+                    </span>
+                    <p>pixelgeeklab@gmail.com</p>
+                  </div>
+                  <ul class="top-bar__mobile__footer__menu-social">
+                    <li><img src="./assets/img/assets_Home-Fashion2/facebook-copy.png" alt="facebook"></li>
+                    <li><img src="./assets/img/assets_Home-Fashion2/twitter.png" alt="twitter"></li>
+                    <li><img src="./assets/img/assets_Home-Fashion2/instagram.png" alt="instagram"></li>
+                    <li><img src="./assets/img/assets_Home-Fashion2/pinterest.png" alt="pinterest"></li>
+                    <li><img src="./assets/img/assets_Home-Fashion2/g.png" alt="google"></li>
+                    <li><img src="./assets/img/assets_Home-Fashion2/youtube.png" alt="youtube"></li>
+                  </ul>
+                  <div class="top-bar__mobile__footer-icon">
+                    <div class="top-bar__mobile__footer-icon__wishlist">
+                      <a href="wishlist.html"><i class="far fa-heart"></i><span>3</span></a>
+                    </div>
+                    <div class="top-bar__mobile__footer-icon__account">
+                      <a href="#"><img src="./assets/img/assets_Main-menu/my-account.png" alt="account"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="top-bar__logo">
+              <a href="index.html">RABI</a>
+            </div>
+          </div>
+          <div class="col">
+            <ul class="top-bar__menu-item">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="shop-kid.html">SHOP</a></li>
+              <li><a href="product-style.html">PRODUCT</a></li>
+              <li><a href="blog.html">BLOG</a></li>
+              <li><a href="#">PAGES</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="top-bar__logo-mid">
+              <a href="index.html">RABI</a>
+            </div>
+          </div>
+          <div class="col">
+            <ul class="top-bar__menu-icon">
+              <li><img src="./assets/img/icon-search/search.png" alt="alt"></li>
+              <li>
+                <a href="wishlist.html">
+                  <img src="./assets/img/icon-wishlist/icon-wishlist.png" alt="alt">
+                </a>
+              </li>
+              <li><img src="./assets/img/my-account/my-account.png" alt="alt"></li>
+              <li><a href="shopping-cart.html">
+                <img src="./assets/img/icon-cart/icon-cart.png" alt="alt">
+                <div class="top-bar__menu-icon__ellipse">9</div>
+              </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="shopping">
+      <div class="container">
+        <div class="row">
+          <div class="shopping__title">
+            <h1>Shopping Cart</h1>
+            <p>Free shipping on All Orders over $75</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="shopping__product">
+              <div class="shopping__product-title">
+                <p>Product</p>
+                <p>Qty</p>
+                <p>SubTotal</p>
+              </div>
+              <div class="shopping__product-item">
+                <div class="shopping__product-item__wrapper">
+                  <div class="shopping__product-item__remove">
+                    <img src="./assets/img/remove/remove.png" alt="alt">
+                  </div>
+                  <div class="shopping__product-item__img"></div>
+                  <div class="shopping__product-item__title">
+                    <h5>Vintage Moschino</h5>
+                    <p>Size: M, Colors: Black</p>
+                    <span>$20.00</span>
+                  </div>
+                </div>
+                <div class="shopping__product-item__qty">
+                  <img src="./assets/img/fa-minus-circle2/fa-minus-circle.png" alt="alt">
+                  <p>1</p>
+                  <img src="./assets/img/fa-plus-circle2/fa-plus-circle.png" alt="alt">
+                </div>
+                <p>$20.00</p>
+              </div>
+              <div class="shopping__product-item">
+                <div class="shopping__product-item__wrapper">
+                  <div class="shopping__product-item__remove">
+                    <img src="./assets/img/remove/remove.png" alt="alt">
+                  </div>
+                  <div class="shopping__product-item__img"></div>
+                  <div class="shopping__product-item__title">
+                    <h5>Vintage Moschino</h5>
+                    <p>Size: M, Colors: Black</p>
+                    <span>$30.00</span>
+                  </div>
+                </div>
+                <div class="shopping__product-item__qty">
+                  <img src="./assets/img/fa-minus-circle2/fa-minus-circle.png" alt="alt">
+                  <p>
+                    2
+                  </p>
+                  <img src="./assets/img/fa-plus-circle2/fa-plus-circle.png" alt="alt">
+                </div>
+                <p>$60.00</p>
+              </div>
+            </div>
+            <div class="shopping__coupon">
+              <div class="shopping__coupon-input">
+                <input type="text" class="shopping__coupon-input-1" placeholder="Coupon code">
+                <button>UPDATE CART</button>
+              </div>
+              <div class="shopping__coupon-input2">
+                <i class="fas fa-arrow-right"></i>
+                <input type="text" class="shopping__coupon-input2-2" placeholder="SS2019">
+                <button>UPDATE CART</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+            <div class="shopping__cart">
+              <h5>Cart Totals</h5>
+              <div class="shopping__cart__sub-total">
+                <p>Subtotal</p>
+                <span>$80</span>
+              </div>
+              <div class="shopping__cart-ship">
+                <h5>SHIPPING</h5>
+                <label for="ship__free" class="shopping__cart-ship__free-label">
+                  <input class="shopping__cart-ship__free-radio" type="radio" name="free shipping" id="ship__free">
+                  <span class="shopping__cart-ship__free-radio-border"></span>
+                  <span>Free Shipping</span>
+                </label>
+                <br>
+                <label for="ship__local" class="shopping__cart-ship__local-label">
+                  <input class="shopping__cart-ship__local-radio" type="radio" name="free shipping" id="ship__local">
+                  <span class="shopping__cart-ship__local-radio-border"></span>
+                  <span>Local Pickup</span><span>(Free)</span>
+                </label>
+                <br>
+                <label for="ship__flat" class="shopping__cart-ship__flat-label">
+                  <input class="shopping__cart-ship__flat-radio" type="radio" name="free shipping" id="ship__flat">
+                  <span class="shopping__cart-ship__flat-radio-border"></span>
+                  <span>Flat Rate:</span><span>$10.00</span>
+                </label>
+              </div>
+              <div class="shopping__cart__estimate">
+                <h5>Estimate for CA</h5>
+                <div class="shopping__cart__estimate-address">
+                  <h5>Change Address</h5>
+                  <div class="shopping__cart__estimate-address__country">
+                    <select class="shopping__cart__estimate-address__country-select" name="Country">
+                      <option value="Country">Country</option>
+                      <option value="United States">United States</option>
+                      <option value="Viet Nam">Viet Nam</option>
+                    </select>
+                  </div>
+                  <div class="shopping__cart__estimate-address__province">
+                    <select class="shopping__cart__estimate-address__province-select" name="State / Province">
+                      <option value="State / Province">State / Province</option>
+                      <option value="Ho Chi Minh">Ho Chi Minh</option>
+                      <option value="Ha Noi">Ha Noi</option>
+                    </select>
+                  </div>
+                  <div class="shopping__cart__estimate-address__zip">
+                    <select class="shopping__cart__estimate-address__zip-select" name="Zip / Postal Code">
+                      <option value="Zip / Postal Code">Zip / Postal Code</option>
+                      <option value="70000">70000</option>
+                      <option value="03000">03000</option>
+                    </select>
+                  </div>
+                  <div class="shopping__cart__estimate-address__update">
+                    <button>UPDATE</button>
+                  </div>
+                </div>
+              </div>
+              <div class="shopping__cart-total">
+                <p>Cart totals</p>
+                <span>$80.00</span>
+              </div>
+              <div class="shopping__cart-button1">
+                  <button>PROCEED TO CHECKOUT</button>
+                  
+              </div>
+              <div class="shopping__cart-button2">
+                <button>Continue shopping</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section class="contact">
+      <div class="container">
+        <div class="contact-bg">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+              <div class="contact__shipping">
+                <img src="./assets/img/gift/gift.png" alt="alt">
+                <h5>STANDARD FREE SHIPPING FROM $75</h5> 
+              </div>
+            </div>
+            <div class=" col-12 col-sm-6 col-md-6 col-lg-3">
+              <div class="contact__phone">
+                <img src="./assets/img/phone-wave/phone-wave.png" alt="alt">
+                <h5>CUSTOMER SERVICE +123 456 789 99</h5> 
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+              <div class="contact__return">
+                <img src="./assets/img/return/return.png" alt="alt">
+                <h5>RETURN OR EXCHANGE WITHIN 15 DAYS</h5>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+              <div class="contact__payment">
+                <img src="./assets/img/lock/lock.png" alt="alt">
+                <h5>PAYMENT SECURED</h5>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ********** -->
+    <section class="about-us">
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 ">
+              <ul class="about-us__contact-us">
+                  <li><h6>CONTACT US</h6></li>
+                  <li>
+                    <div class="about-us__contact-line"></div>
+                  </li>
+                  <li><img class="img-1" src="./assets/img/icon-address/icon-address.png" alt="alt"><a href="">5th Avenue at St.Marks Place, Cathedral District Brooklyn</a></li>
+                  <li><img class="img-2" src="./assets/img/icon-address-phone/icon-address-copy-2.png" alt="alt"><a href="">877-834-1434</a></li>
+                  <li><img class="img-3" src="./assets/img/icon-address-mail/icon-address-copy.png" alt="alt"><a href="">pixelgeeklab@gmail.com</a></li>
+              </ul>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-2 ">
+              <ul class="about-us__company-info">
+                  <li><h6>COMPANY INFO</h6></li>
+                  <li>
+                    <div class="about-us__company-line"></div>
+                  </li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Press</a></li>
+                  <li><a href="#">Affiliates</a></li>
+                  <li><a href="#">Corporate Information</a></li>
+                  <li><a href="#">Sustainability</a></li>
+              </ul>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-2  ">
+              <ul class="about-us__support">
+                  <li><h6>SUPPORT</h6></li>
+                  <li>
+                    <div class="about-us__support-line"></div>
+                  </li>
+                  <li><a href="#">Customer Service</a></li>
+                  <li><a href="#">Shipping</a></li>
+                  <li><a href="#">Returns & Exchanges</a></li>
+                  <li><a href="#">Gift Cards</a></li>
+                  <li><a href="#">Store Finder</a></li>
+                  <li><a href="#">Site map</a></li>
+              </ul>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 ">
+              <ul class="about-us__our-newsletter">
+                  <li><h6>OUR NEWSLETTER</h6></li>
+                  <li>
+                    <div class="about-us__newsletter-line"></div>
+                  </li>
+                  <li>To stay-up to-date on our promotions, discounts, sales, special offers and more</li>
+                  <li>
+                    <input type="text" name="txtEmail" class="about-us__our-newsletter-input" placeholder="Your Email Address">
+                  </li>
+                  <li>
+                    <button class="btn btn-outline-light">SUBSCRIBE</button>
+                  </li>
+              </ul>
+          </div>
+          </div>
+          <div class="about-us__bottom-line"></div>
+          <div class="about-us__row">
+              <!-- <div class="col-12 col-sm-6"> -->
+                <div class="about-us__bottom-footer">
+                  <h2 class="about-us__bottom-logo"><a href="index.html">RABI</a></h2>
+                  <span class="typeface">©</span><span>PixelGeekLab</span>
+                </div>
+              <!-- </div> -->
+              <!-- <div class="col-12 col-sm-6 "> -->
+                  <div class="about-us__bottom-payment">
+                    <img src="./assets/img/payment/payment.png" alt="alt">
+                  </div>
+              <!-- </div> -->
+          </div>
+      </div>
+  </section>
+  </footer>
+  <script src="bootstrap/js/bootstrap.js" ></script>
+</body>
+</html>
